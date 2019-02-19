@@ -71,7 +71,7 @@ export const updateEmail = (email: string) => {
         payload: {
             email: email
         },
-        type: accountSettingsTypes.UPDATE_PASSWORD
+        type: accountSettingsTypes.UPDATE_EMAIL
     }
 }
 export const updateProfilePicture = (picture: Url) => {
